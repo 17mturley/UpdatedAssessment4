@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="container">
+      <div class ="button-container">
+        <button id="complimentButton">Get a compliment</button>
+        <button id="fortuneButton">Get Fortune</button>
+      </div>
+      <header>
+      <h1>Add A Cat</h1>
+      </header>
+    <main>
+      <form>
+        <label for="name">Name:</label>
+        <input 
+          type="text" 
+          id="name" 
+          name="name" 
+          required>
+        <label for="nickname">Nickname:</label>
+        <input 
+          type="text" 
+          id="nickname" 
+          nickname="nickname" 
+          required>
+        <label for="imageURL">Image URL:</label>
+        <input 
+          type="text" 
+          id="imageURL" 
+          imageURL="imageURL" 
+          require>
+        <section id="ratings-container">
+          <p>Rate the cat:</p>
+          <div id="radio-container">
+            <label for="one">
+              <input
+                type="radio"
+                name="ratings"
+                value="1"
+                id="one"/>
+              1
+            </label>
+            <label for="two">
+              <input
+                type="radio"
+                name="ratings"
+                value="2"
+                id="two"/>
+                2
+            </label>
+            <label for="3">
+              <input
+                type="radio"
+                name="ratings"
+                value="3"
+                id="three"/>
+                3
+            </label>
+            <label for="4">
+              <input
+                type="radio"
+                name="ratings"
+                value="4"
+                id="four"/>
+                4
+            </label>
+            <label for="5">
+              <input
+                type="radio"
+                name="ratings"
+                value="5"
+                id="five"/>
+                5
+            </label>
+          </div>
+        </section>
+        <button>Add Cat</button>
+      </form>
+
+      <section id="cats-container"></section>
+    
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

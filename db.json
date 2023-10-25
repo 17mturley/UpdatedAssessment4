@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Lola",
+        "nickname": "Chonkers",
+        "rating": "5",
+        "imageURL": "https://media.istockphoto.com/id/105867148/photo/cute-cat-sunning-itself-happily-outdoors.jpg?s=612x612&w=0&k=20&c=i4Gx17zylHB5b3ET_DxbxoMcmW7ouP5TQUXGCsDYY88="
+    },
+    {
+        "id": 2,
+        "name": "George",
+        "nickname": "Sir Fluff",
+        "rating": "4",
+        "imageURL": "https://iheartcats.com/wp-content/uploads/2016/08/cat-1342923_640.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Delilah",
+        "nickname": "Lil Stinky",
+        "rating": "4",
+        "imageURL": "https://sparrows-garden.com/images/photos/chocolate.jpg"
+    }
+]
